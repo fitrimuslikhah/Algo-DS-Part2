@@ -1,5 +1,6 @@
 def maximum_buy_product(money, product_price):
-    return 0
+
+
 
 if __name__ == "__main__":
     print(maximum_buy_product(50000, [25000, 25000, 10000, 14000]))      # 3

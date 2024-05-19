@@ -1,5 +1,5 @@
 def playing_domino(cards, deck):
-    return []
+    
 
 if __name__ == "__main__":
     print(playing_domino([[6, 5], [3, 4], [2, 1], [3, 3]], [4, 3]))  # [3, 4]
