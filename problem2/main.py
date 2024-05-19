@@ -1,4 +1,16 @@
 def maximum_buy_product(money, product_price):
+    product_price.sort()
+    
+    amount_products = 0
+    
+    for price in product_price:
+        if money >= price:
+            money -= price 
+            amount_products += 1  
+        else:
+            break  
+    
+    return amount_products
 
 
 
