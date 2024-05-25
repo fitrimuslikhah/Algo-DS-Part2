@@ -1,5 +1,5 @@
 def find_min_and_max(arr):
-    return ''
+    return ''"
 
 if __name__ == "__main__":
     print(find_min_and_max([5, 7, 4, -2, -1, 8]))
